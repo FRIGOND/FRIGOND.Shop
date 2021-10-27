@@ -1,0 +1,46 @@
+* {
+  padding: 0 auto;
+  margin: 0 auto;
+  font-family: 'Arial';
+}
+
+header {
+  background-color: #161b22;
+}
+
+h1 {
+  color: red;
+
+
+}
+
+section.TitrePrincipale {
+
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+
+}
+
+p.info{
+	color: #BF2BD4;
+}
+
+section.containersécurité {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+section.containersécurité .item {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+section.containersécurité img, p, h2 {
+  padding: 5px;
+}
