@@ -4,6 +4,8 @@
   font-family: 'Arial';
 }
 
+
+
 header {
   background-color: #161b22;
 }
@@ -26,6 +28,10 @@ p.info{
 	color: #BF2BD4;
 }
 
+
+
+
+
 section.containersécurité {
   display: flex;
   flex-wrap: wrap;
@@ -43,4 +49,34 @@ section.containersécurité .item {
 
 section.containersécurité img, p, h2 {
   padding: 5px;
+}
+
+
+
+
+
+section.containermoney {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+section.containermoney .itemmoney {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+}
+
+section.containermoney img, p, h2 {
+  padding: 5px;
+}
+
+section.containermoneylogoandexplication {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px;
 }
